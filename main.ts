@@ -1,10 +1,11 @@
-plenbit.eyeLed(plenbit.LedOnOff.On)
-plenbit.danceMotion(plenbit.DanceMotions.DanceBow)
-plenbit.stdMotion(plenbit.StdMotions.WalkForward)
-plenbit.stdMotion(plenbit.StdMotions.WalkForward)
-plenbit.danceMotion(plenbit.DanceMotions.TwistDance)
-plenbit.stdMotion(plenbit.StdMotions.WalkBack)
-plenbit.stdMotion(plenbit.StdMotions.WalkBack)
-basic.forever(function () {
-	
+let 移動距離 = 0
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+        if (input.compassHeading() == 0) {
+            plenbit.soccerMotion(plenbit.SocMotions.LongDribble)
+            移動距離 = 0
+        } else if (false) {
+        	
+        }
+    }
 })
