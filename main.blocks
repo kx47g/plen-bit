@@ -1,0 +1,1 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="+7lxY9K{5bxvO1)zAG4x" x="0" y="2"><statement name="HANDLER"><block type="PLEN:bit_motion_Soc" id="{{7Ss[NIc#]LhG@qbU9L"><field name="filename">plenbit.SocMotions.DefenseLStep</field></block></statement></block><block type="device_forever" id="|J)^,JZZsW{.NeAFUFq/" x="451" y="0"/></xml>
